@@ -3,15 +3,14 @@ Creating an audio player. API project.
 
 ANTINODE WEB MUSIC PLAYER — README
 
-==========================
+
 Description
 ==========================
 ANTINODE is a modern web music player with a beautiful Welcome page, track upload support, endless playlist, and a parametric equalizer. The project consists of two parts: the Welcome Page (landing page) and the player itself (runs on Node.js + Express).
 
-==========================
+
 How to Run the Project
 ==========================
-
 1. Download or clone the repository to your PC.
 
 2. Install Node.js  
@@ -37,37 +36,8 @@ How to Run the Project
 6. Go to the player  
    On the Welcome Page, there is a "Demo" button that opens the player in a new tab.
 
-==========================
-Project Structure
-==========================
-
-Player v1.2/
-│
-├── public/                # Player frontend (HTML, CSS, JS)
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│
-├── uploads/               # Uploaded tracks
-│   └── *.mp3, *.wav ...
-│
-├── Wellcome page/         # Welcome page (standalone)
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── src/               # Video for Welcome Page
-│       ├── BG.mov
-│       ├── EQ1.mov
-│       ├── EQ2.mov
-│       └── EQ3.mov
-│
-├── server.js              # Express server (Node.js)
-└── package.json           # Dependencies and scripts
 
 
-
-
-==========================
 Technologies Used
 ==========================
 
@@ -77,7 +47,7 @@ Technologies Used
 - Player:  
   Node.js, Express, Multer (file upload), vanilla JS, HTML5 Audio API, Canvas (equalizer), responsive design.
 
-==========================
+
 Project Features
 ==========================
 
@@ -97,7 +67,7 @@ Player:
 - Uploaded tracks saved on the server
 - Responsive interface
 
-==========================
+
 How the Project Works
 ==========================
 
@@ -105,7 +75,7 @@ How the Project Works
 - Player — a separate Node.js app, runs via npm start and is available at http://localhost:3000.
 - Transition from Welcome Page to player is via the "Demo" button.
 
-==========================
+
 Author 
 ==========================
 
