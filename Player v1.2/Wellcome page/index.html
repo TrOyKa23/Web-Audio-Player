@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTIONODE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <video class="bg-video" autoplay muted loop playsinline>
+        <source src="src/BG.mov" type="video/mp4">
+    </video>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+
+    <nav>
+        <div class="logo">ANTINODE</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>WEB<br>MUSIC<br>PLAYER</h1>
+            <p>Discover a new feature, the parametric equalizer.</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn-primary">Learn More</a>
+                <a href="http://localhost:3000" class="btn-secondary" target="_blank">Demo</a>
+            </div>
+        </div>
+
+
+
+        <div class="scroll-down-arrow">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <path d="M18 8V28M18 28L8 18M18 28L28 18" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+    </section>
+
+    <section class="features" id="features">
+
+        <div class="video-container-1">
+            <video autoplay muted loop playsinline>
+                <source src="src/EQ2.mov" type="video/mp4">
+            </video>
+            <div class="features-description1">
+                <h2>Intuitive Controls</h2>
+                <p>Pause, next, previous, loop, volume control.</p>
+            </div>
+        </div>
+
+
+        <div class="video-container-2">
+            <video autoplay muted loop playsinline>
+                <source src="src/EQ1.mov" type="video/mp4">
+            </video>
+            <div class="features-description2">
+                <h2>Parametric Equalizer</h2>
+                <p>Fine-tune your sound for perfect listening. Control frequencies, create your unique sound.</p>
+            </div>
+        </div>
+
+
+        <div class="video-container-3">
+            <video autoplay muted loop playsinline>
+                <source src="src/EQ3.mov" type="video/mp4">
+            </video>
+            <div class="features-description3">
+                <h2>Endless Playlist</h2>
+                <p>Enjoy a playlist that never ends. Seamlessly transition between tracks and keep the music flowing.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="interactive-section">
+        <h2 style="margin-bottom: 30px; color: #fff;">Try for free</h2>
+        <a href="http://localhost:3000" class="btn-secondary" target="_blank">Demo</a>
+    </section>
+
+
+</body>
+</html>
