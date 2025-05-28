@@ -79,6 +79,6 @@ How the Project Works
 Author 
 ==========================
 
-ANTINODE_prod, 2025
+ANTINODE, 2025
 
 
